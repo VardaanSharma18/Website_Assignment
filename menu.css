@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(25, 25, 41);
+}
+header{
+    background-image: url('bg2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.backdrop{
+    backdrop-filter: brightness(0.4);
+}
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.head{
+    font-size: 3rem;
+    color: rgb(255, 166, 0);
+    margin-bottom: 10px;
+    font-family: "Yeseva One";
+}
+hr.one{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 166, 0);
+}
+.header {
+    margin-top: 10px;
+    font-family: 'Yeseva One'; 
+}
+.header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.heading{
+    margin: 10% 0 0 2%;
+    overflow: hidden;
+}
+.heading h1{
+    color: rgb(255, 166, 0);
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0 0 8% 0;
+}
+.home:hover,.about:hover,.menu:hover,.contact:hover{
+    color: rgb(255, 166, 0);
+    letter-spacing: 2px;
+    transition: all 0.2s linear;
+}
+div.div1{
+    background-color: rgb(25, 25, 41);
+    overflow: hidden;
+}
+.two{
+    text-align: center;
+    margin: 3% auto;
+    color: rgb(255, 166, 0);
+    font-size: 70px;
+    font-family:  "Yeseva One", serif;
+}
+.inner1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10% 0 10% ;
+}
+.three{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para1{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.four{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.five{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para2{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.six{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.seven{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+div.div1 p.para3{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+div.div1 h1.eight{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div1 h2.nine{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+div.div1 p.para4{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+div.div1 h1.ten{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div1 h2.eleven{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+div.div1 p.para5{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+div.div1 h1.twelve{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div1 h2.thirteen{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+div.div1 p.para6{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+div.div1 h1.fourteen{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div2{
+    background-color: rgb(25, 25, 41);
+    overflow: hidden;
+}
+.fifteen{
+    text-align: center;
+    margin: 5% auto;
+    color: rgb(255, 166, 0);
+    font-size: 70px;
+    font-family:  "Yeseva One", serif;
+}
+.sixteen{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para7{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.seventeen{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.eighteen{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para8{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.ninteen{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.twenty{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para9{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.twenty1{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.twenty2{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para10{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.twenty3{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.twenty4{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para11{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.twenty5{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.twenty6{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para12{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.twenty7{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div3{
+    background-color: rgb(25, 25, 41);
+    overflow: hidden;
+}
+.twenty8{
+    text-align: center;
+    margin: 5% auto;
+    color: rgb(255, 166, 0);
+    font-size: 70px;
+    font-family:  "Yeseva One", serif;
+} 
+.twenty9{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para13{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.thirty{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.thirty1{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para14{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.thirty2{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.thirty3{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para15{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.thirty4{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.thirty5{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para16{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.thirty6{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.thirty7{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para17{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.thirty8{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div4{
+    background-color: rgb(25, 25, 41);
+    overflow: hidden;
+}
+.thirty9{
+    text-align: center;
+    margin: 5% auto;
+    color: rgb(255, 166, 0);
+    font-size: 70px;
+    font-family:  "Yeseva One", serif;
+} 
+.fourty{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para18{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.fourty1{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.fourty2{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para19{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.fourty3{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.fourty4{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para20{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.fourty5{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+.fourty6{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+    z-index: 1;
+}
+.para21{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    z-index: 1;
+}
+.fourty7{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+    z-index: 1;
+}
+.fourty8{
+    color: rgb(255, 166, 0);
+    font-family:  "Yeseva One", serif;
+}
+.para22{
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+.fourty9{
+    color: rgb(255, 166, 0);
+    font-size: 45px;
+    font-family:  "Yeseva One", serif;
+}
+div.div5{
+    background-color: rgb(25, 25, 41);
+    overflow: hidden;
+}
+.innerdiv{
+    margin: 3% auto;
+    height: 100px;
+    width: 0px;
+    border: 1px solid #fff;
+}
+#fifty{
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.para23{
+    text-align: center;
+    font-size: 1.2rem;
+    word-spacing: 0.8em;
+    color: #fff;
+    text-transform: capitalize;
+}
+.div5 input[type="text"]#name{
+    margin: 5% 30% 0 35%;
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(25, 25, 41);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: #fff;
+}
+.div5 input[type="text"]#phone{
+    margin: 2% 30% 0 35%;
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(25, 25, 41);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: #fff;
+}
+.div5 input[type="text"]#persons{
+    margin: 2% 30% 0 35%;
+    height: 50px;
+    width: 30%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(25, 25, 41);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: #fff;
+}
+.div5 ::-webkit-input-placeholder{
+    color: #fff;
+}
+.div5 input:focus{
+    border-color: rgb(255, 166, 0);
+}
+.div5 select#day{
+    margin: 2% 30% 0 35%;
+    width: 30%;
+    letter-spacing: 2px;
+    outline: none;
+    appearance: none;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.div5 select#hour{
+    margin: 2% 30% 0 35%;
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+    letter-spacing: 2px;
+    outline: none;
+    width: 30%;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    appearance: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.div5 input[type="submit"]#submitform{
+    margin: 2% 30% 0 40%;
+    width: 20%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border: 1px solid #fff;
+}
+.div5 input[type="submit"]#submitform:hover{
+    color: #000;
+    background-color: #fff;
+    transform: scale(1.2); 
+    transition: all 0.4s linear;
+}
+footer {
+    margin: 1% 0 0 0;
+    text-align: center;
+    background-color: rgb(52, 52, 85);
+    padding: 20px;
+}
+.footer {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Yeseva One';
+    color: rgb(255, 166, 0);
+}
+.foot a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:#fff;
+}
+.foot a:hover {
+    color: #d45d00;
+}
+hr{
+    color: #fff;
+    width: 50%;
+    border: 2px solid #fff;
+    margin: 1% auto;
+}
+.end {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Yeseva One';
+}

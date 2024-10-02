@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url('body7.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.backdrop{
+    backdrop-filter: brightness(0.4);
+}
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.head{
+    font-size: 3rem;
+    color: rgb(255, 166, 0);
+    margin-bottom: 10px;
+    font-family: "Yeseva One";
+}
+hr.one{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 166, 0);
+}
+.header {
+    margin-top: 10px;
+    font-family: 'Yeseva One'; 
+}
+.header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.heading{
+    margin: 10% 0 0 2%;
+    overflow: hidden;
+}
+.heading h1{
+    color: rgb(255, 166, 0);
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0 0 8% 0;
+}
+div.div1{
+    background-color: rgb(64, 63, 57);
+    overflow: hidden;
+}
+div.div1 h1.two{
+    margin: 3% 0 0 0;
+    text-align: center;
+    color: rgb(255, 166, 0);
+    font-family: "Yeseva One", serif;
+}
+div.div1 h3.three{
+    margin: 1% 0 0 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Yeseva One", serif;
+    color: rgb(255, 166, 0);
+}
+div.div1 p.content{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: "Playfair Display", serif;
+}
+div.div1 input[type="text"]#firstname{
+    text-align: center;
+    margin: 5% 30% 0 30%;
+    height: 50px;
+    width: 41%;
+    font-size: 20px;
+}
+div.div1 ::-webkit-input-placeholder{
+    font-size: 20px;
+}
+div.div1 input[type="text"]#lastname{
+    text-align: center;
+    margin: 1% 30% 0 30%;
+    height: 50px;
+    width: 41%;
+    font-size: 20px;
+}
+div.div1 input[type="email"]#email{
+    text-align: center;
+    margin: 1% 30% 0 30%;
+    height: 50px;
+    width: 41%;
+    font-size: 20px;
+}
+div.div1 input[type="text"]#phone{
+    text-align: center;
+    margin: 1% 30% 0 30%;
+    height: 50px;
+    width: 41%;
+    font-size: 20px;
+}
+div.div1 textarea#message{
+    text-align: center;
+    margin: 1% 30% 0 30%;
+    height: 200px;
+    width: 41.2%;
+    font-size: 20px;
+}
+div.div1 input[type="submit"]#submitform{
+    text-align: center;
+    margin: 1% 30% 0 40%;
+    height: 50px;
+    width: 20%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.four{
+    font-size: 3rem;
+    text-align: center;
+    margin: 8% 0 0 0;
+    color: rgb(255, 166, 0);
+    font-family: 'Yeseva One';
+}
+.contact1{
+    margin: 2% 20%;
+    font-size: 1.7rem;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+}
+div.div2{
+    background-color: rgb(64, 63, 57);
+    overflow: hidden;
+}
+.line{
+    margin: 4% auto;
+    width: 0px;
+    border: 1px solid #fff;
+    height: 150px;
+}
+.five{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-family: "Yeseva One", serif;
+}
+.div2 .link{
+    margin:3% 0 0 0;
+    padding: 30px;
+    text-align: center;
+}
+.div2 button{
+    color: #fff;
+        border: 2px solid #fff;
+        font-size: 1.5rem;
+        padding: 20px;
+        background-color: transparent;
+        appearance: none;
+        font-family: 'Yeseva One';
+}
+.div2 button:hover{
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+    transition: all linear 0.2s;
+}
+footer {
+    text-align: center;
+    background-color: rgb(39, 39, 35);
+    padding: 20px;
+}
+.footer {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Yeseva One';
+    color: rgb(255, 166, 0);
+}
+.foot a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:#fff;
+}
+.foot a:hover {
+    color: #d45d00;
+}
+hr{
+    color: #fff;
+    width: 50%;
+    border: 2px solid #fff;
+    margin: 1% auto;
+}
+.end {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Yeseva One';
+}
+.home:hover,.about:hover,.menu:hover,.contact:hover{
+    color: rgb(255, 166, 0);
+    letter-spacing: 2px;
+    transition: all 0.2s linear;
+}
+div.div1 input[type="submit"]#submitform:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s linear;
+}

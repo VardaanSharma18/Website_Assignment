@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('bg4.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.backdrop{
+    backdrop-filter: brightness(0.4);
+}
+.container{
+    text-align: center;
+    padding: 20px;
+}
+.head{
+    font-size: 3rem;
+    color: rgb(255, 166, 0);
+    margin-bottom: 10px;
+    font-family: "Yeseva One";
+}
+hr.one{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 166, 0);
+}
+.header {
+    margin-top: 10px;
+    font-family: 'Yeseva One'; 
+}
+.header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.heading{
+    margin: 10% 0 0 2%;
+    overflow: hidden;
+}
+.heading h1{
+    color: rgb(255, 166, 0);
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 0 0 8% 0;
+}
+.div1{
+    background-color: #ac948b;
+    overflow: hidden;
+}
+.two{
+    margin: 4% 30%;
+    font-size: 35px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+div.div1 img#img1{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    height: 600px;
+    width: 90vw;
+    filter: brightness(0.3);
+    z-index: 1;
+}
+div.div2{
+    background-color: #ac948b;
+    overflow: hidden;
+}
+div.div2 div.innerdiv1{
+    margin: 0 50%;
+    width: 0px;
+    height: 100px;
+    border: 1px solid #fff;
+}
+div.div2 h1.five{
+    text-align: center;
+    color: rgb(255, 166, 0);
+    font-family: "Yeseva One", serif;
+    font-size: 50px;
+}
+.inner{
+    display: flex;
+}
+div.paragraph{ 
+    margin: 5% 2% 0 2%;
+}
+div.div2 img#img2{
+    margin: 8% 2% 0 0;
+    width: 90%;
+}
+div.div2 p.para1{
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div.div2 p.para2{
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div.div2 p.para3{
+    font-size: 25px;
+    text-align: left;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home:hover,.about:hover,.menu:hover,.contact:hover{
+    color: rgb(255, 166, 0);
+    letter-spacing: 2px;
+    transition: all 0.2s linear;
+}
+footer {
+    text-align: center;
+    background-color: #72615b;
+    padding: 20px;
+}
+.footer {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Yeseva One';
+    color: rgb(255, 166, 0);
+}
+.foot a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:#fff;
+}
+.foot a:hover {
+    color: #d45d00;
+}
+hr{
+    color: #fff;
+    width: 50%;
+    border: 2px solid #fff;
+    margin: 1% auto;
+}
+.end {
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Yeseva One';
+}
+
